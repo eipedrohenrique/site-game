@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <nav id="NavBar">
+            <div id="image">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div id="Paragraf">
+                <p onmouseover="mostrarpopup()">JOGAR</p>
+                <p onmouseover="mostrarpopup()">LOJA</p>
+                <p onmouseover="mostrarpopup()">EXPLORAR</p>
+            </div>
+            <div id="conta">
+                <a href=""><img src="img/user.png" alt=""></a>
+                <a href=""><img src="img/carrinho.png" alt="" id="carro"></a>
+            </div>
+        </nav>
+        <nav id="NavNav">
+            <p>Promoções</p>
+            <p>Comunidade</p>
+            <p>Suporte</p>
+        </nav>
+    </div>
+
+    <section id="games">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="game-img">
+                        <img src="/game/img/HOMEM ARANHA.jpg" alt="foto do homem aranha">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="game-img">
+                        <img src="/game/img/reproducao-miles-morales-youtube-scaled-1280x720.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="game-img">
+                        <img src="./img/God-of-War-4-1-1920x1024.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
